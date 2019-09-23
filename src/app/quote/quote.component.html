@@ -8,6 +8,7 @@
         <div *ngFor='let quote of quotes;let i = index'>
           <div>
             <h4 id={{i}} appHighlight>{{quote.title}} due on {{quote.completeQuote|date|uppercase}}</h4>
+            <!-- <button class="btn btn-outline-primary" (click)='toogleDetails(position)'>Quote Details</button> -->
             <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
           </div>
   
