@@ -1,1 +1,10 @@
-<p>quote-detail works!</p>
+<p>
+    {{quote.myquote}}</p>
+    <p>{{quote.author}}<p>
+    <p>due on {{quote.completeDate|date|uppercase}}
+    </p>
+    <p>This goal will be complete in {{quote.completeDate|dateCount}} days</p>
+    
+    <!-- <button (click)= 'quoteComplete(true)'>Complete</button> -->
+    <!-- <button (click)= 'quoteDelete(true)'>Delete quote</button> -->
+    <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete quote</button>

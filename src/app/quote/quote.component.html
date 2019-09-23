@@ -1,1 +1,24 @@
-<p>quote works!</p>
+
+<div class="container">
+    <h1>My Quote</h1>
+    <hr>
+  
+    <div class="row">
+      <div class="col-md-6">
+        <div *ngFor='let quote of quotes;let i = index'>
+          <div>
+            <h4 id={{i}} appHighlight>{{quote.title}} due on {{quote.completeQuote|date|uppercase}}</h4>
+            <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+          </div>
+  
+          <div *ngIf='quote.showAuthor'>
+            <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <app-quote-form></app-quote-form>
+      </div>
+    </div>
+  </div>
+  
