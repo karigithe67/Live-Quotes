@@ -4,13 +4,13 @@ By Raymond Yegon
 Description
 The website is built using Angular framework and bootstrap for styling. The website help users to find the worlds most famous quotes through ease. It also allows them to post the quote of their choice.
 
-## Setup Requirements
+# Setup Requirements
 All you need is to click this here and be redirected to the website.
 
 ### Futhermore
 If you want the source code you can just clone the rope and follow the steps below.
 
-Development server
+### Development server
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 Code scaffolding
