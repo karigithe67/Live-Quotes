@@ -25,10 +25,10 @@ Run ng test to execute the unit tests via Karma.
 ### Further help
 To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
 
-Known Bugs
+# Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 
-Technologies Used
+# Technologies Used
 *Angular *Bootstrap *HTML *CSS *TypeScript
 
 Support and contact details
