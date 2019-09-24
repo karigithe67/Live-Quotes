@@ -1,0 +1,18 @@
+.vote-btn-like{
+    background-image: url("~src/assets/face.jpg");
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-position:center center;
+    border-radius: 100%;
+    margin-top: 3px;
+   }
+   .vote-btn-dislike{
+    background-image: url("~src/assets/youtube.png");
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-position:center center;
+    border-radius: 100%;
+    margin-top: 3px;
+   }

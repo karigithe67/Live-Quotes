@@ -1,21 +1,13 @@
 import { Directive ,ElementRef,HostListener} from '@angular/core';
+import { element } from 'protractor';
 
 @Directive({
   selector: '[appHighlight]'
 })
 export class HighlightDirective {
 
-  constructor(private elem:ElementRef) { }
-  @HostListener("click") onClicks(){
-    this.textDeco("line-through")
+  constructor(elem: ElementRef) {
+    elem.nativeElement.style.BackgroundClolor = "green"
   }
 
-  @HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
-  }
-
-  private textDeco(action:string){
-    this.elem.nativeElement.style.textDecoration=action;
-
-}
 }
