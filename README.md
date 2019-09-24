@@ -7,7 +7,7 @@ Karigithe Jeff.
 # Description
 The website is built using Angular framework and bootstrap for styling. The website help users to find the worlds most famous quotes through ease. It also allows them to post the quote of their choice.
 
-# Setup Requirements
+## Setup Requirements
 All you need is to click this here and be redirected to the website.
 
 ### Futhermore
@@ -31,7 +31,7 @@ To get more help on the Angular CLI use ng help or go check out the Angular CLI 
 # Known Bugs
 Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place.
 
-# Technologies Used
+## Technologies Used
 *Angular *Bootstrap *HTML *CSS *TypeScript
 
 ### Support and contact details
