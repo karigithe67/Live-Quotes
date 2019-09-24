@@ -1,5 +1,5 @@
 # Quotes
-This is a web page where users can read and even post their quotes. (c) 2019
+This is a web page where users can read and even post their quotes.
 
 # Author
 Karigithe Jeff.
@@ -29,7 +29,7 @@ Run ng test to execute the unit tests via Karma.
 To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
 
 # Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place.
 
 # Technologies Used
 *Angular *Bootstrap *HTML *CSS *TypeScript
