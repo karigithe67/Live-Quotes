@@ -28,6 +28,7 @@ dislikeButtonClick() {
  this.numberOfDislikes++;
 }
   
+
   constructor() { }
 
   ngOnInit() {
