@@ -1,7 +1,10 @@
 # Quotes
 This is a web page where users can read and even post their quotes. (c) 2019
-By Raymond Yegon
-Description
+
+# Author
+Karigithe Jeff.
+
+# Description
 The website is built using Angular framework and bootstrap for styling. The website help users to find the worlds most famous quotes through ease. It also allows them to post the quote of their choice.
 
 # Setup Requirements
